@@ -22,7 +22,7 @@ git clone https://github.com/SamAg19/BD1---Medical-Records.git
 npm i
 ```
 
-##Please make sure you have truffle@5.1.11 already installed before running 'npm i'
+## Please make sure you have truffle@5.1.11 already installed before running 'npm i'
 
 3. Local Network
 
