@@ -36,6 +36,9 @@ Let this terminal run until we finish our simulation
 
 4. Running the simulation test file
 
+Open another terminal and run the following command
+
 ```
 truffle test
 ```
+There should be 7 cases out of which case no. 6 should fail and rest all should pass.
