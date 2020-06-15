@@ -1,0 +1,19 @@
+{
+  "name": "medicalrecords",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs-api": "^26.1.2",
+    "bs58": "^4.0.1"
+  }
+}
