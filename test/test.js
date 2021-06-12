@@ -65,9 +65,9 @@ contract("MedicalRecords", function(accounts) {
         assert.equal(data,doc,"Data retrieval Unsuccessful")
     })
 
-    it("Dr Santosh trying to retrieve Sameer's report",async()=>{
+    it("Dr Santosh trying to retrieve Sameer's report but failing",async()=>{
         let patient = await MedicalRecordsInstance.getDoctorPatients({from:accounts[2]})
-        assert.notEqual(patient.length,0,"No patient in Dr. Santosh's database, hence cannot have access to Sameer's file")
+        assert.equal(patient.length,0,"Security Breach: Patient in Dr. Santosh's database even though Sameer did not give permission")
     })
 
     it("Sameer gives permisiion to Dr. Santosh to retrieve his file",async()=>{
